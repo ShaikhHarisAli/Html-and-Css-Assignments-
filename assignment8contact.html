@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact US</title>
+  </head>
+  <style>
+    body {
+      width: 80%;
+      margin: 0 auto;
+    }
+    /* Header */
+    header {
+      background-color: #6495ed;
+      border: none;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    header img {
+      width: 100px;
+      height: 80px;
+    }
+    header img, .nav{
+        display: inline-block;
+        }
+        .nav{
+            position: relative;
+            left: 200px;
+            
+        }
+    .nav ul {
+      list-style-type: none;
+      padding: 0px 10px 0px 10px;
+      display: flex;
+      justify-content: center;
+    }
+    .nav ul li {
+      padding: 0px 10px 0px 10px;
+    }
+    .nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 25px;
+    }
+    ul li a:hover{
+            text-decoration: none;
+            color:white;
+        }
+        /* Footer */
+    footer {
+      background-color: #6495ed;
+      border: none;
+      border-radius: 10px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <header>
+      <img
+        src="https://www.panacloud.ai/assets/images/global/logo-color.png"
+        alt="Panacloud"
+      />
+      <div class="nav">
+        <ul>
+          <li><a href="assignment8.html">HOME</a></li>
+          <li><a href="assignment8about.html">ABOUT</a></li>
+          <li><a href="assignment8portfolio.html">PORTFOLIO</a></li>
+          <li><a href="assignment8contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Body -->
+    <fieldset style="width: 500px">
+      <legend>Your Details</legend>
+      <label
+        >Name: <input type="text" size="50" maxlength="30" name="name" /></label
+      ><br />
+      <label
+        >Email: &nbsp;
+        <input type="text" size="50" maxlength="30" name="email" /></label
+      ><br />
+    </fieldset>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <fieldset style="width: 500px">
+      <legend>Your Details</legend>
+      <label for=""
+        >Who did you hear about us ?
+        <select name="server">
+          <option selected="selected" value="ipod">Google</option>
+          <option value="radio">Aws</option>
+          <option value="computer">FaceBook</option>
+        </select>
+      </label>
+      <br />
+      <label for="radio">
+        Would you Visit Again? <br />
+        <input checked="checked" type="radio" name="abc" id="radio" />
+        Yes
+        <input type="radio" name="abc" id="radio" />
+        No
+        <input type="radio" name="abc" id="radio" />
+        Maybe
+      </label>
+      <br />
+      <label for="textarea"
+        >Comments : <br />
+        <textarea
+          id="textarea"
+          placeholder="write your comments"
+          cols="30"
+          rows="5"
+        ></textarea>
+      </label>
+      <br />
+      <label for="sign">
+        <input type="checkbox" checked="checked" name="SignUp" id="sign" />
+        Sign me up for Email updates
+      </label>
+      <br />
+      <label for="Submit">
+        <input type="button" id="Submit" value="Submit" />
+      </label>
+    </fieldset>
+    <h2>Google Map</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1809.1072757783356!2d67.1366948!3d24.9247599!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1607980020745!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    <!-- Footer -->
+    <footer>
+      <div>
+        <p>Copyright © 2019. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

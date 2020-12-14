@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7</title>
+</head>
+<body>
+    <fieldset style="width: 500px;">
+        <legend>Your Details</legend>
+        <label>Name:
+        <input type="text" size="50" maxlength="30" name="name" /></label><br />
+        <label>Email: &nbsp;
+        <input type="text" size="50" maxlength="30" name="email" /></label><br />
+    </fieldset>
+    <br/>
+    <br/>
+    <br/>
+    <fieldset style="width: 500px;">
+        <legend>Your Details</legend>
+        <label for="">Who did you hear about us ? 
+            <select name="server">
+                <option selected="selected" value="ipod">Google</option>
+                <option value="radio">Aws</option>
+                <option value="computer">FaceBook</option>
+                </select>
+        </label>
+        <br/>
+        <label for="radio">
+            Would you Visit Again? <br/>
+            <input checked="checked" type="radio" name="abc" id="radio">
+            Yes
+            <input type="radio" name="abc" id="radio">
+            No
+            <input type="radio" name="abc" id="radio">
+            Maybe
+        </label>
+        <br/>
+        <label for="textarea">Comments : <br/>
+        <textarea id="textarea" placeholder="write your comments" cols="30" rows="5"></textarea>
+        </label>
+        <br/>
+        <label for="sign">
+            <input type="checkbox" checked="checked" name="SignUp" id="sign">
+            Sign me up for Email updates
+        </label>
+        <br/>
+        <label for="Submit">
+            <input type="button" id="Submit" value="Submit">
+        </label>
+        
+    </fieldset>
+</body>
+</html>
